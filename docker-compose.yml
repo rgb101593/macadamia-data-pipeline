@@ -1,0 +1,10 @@
+services:
+  macadamia-pipeline:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src
+    command: python src/etl_pipeline.py
+    env_file: .env # Load AWS credentials from .env file

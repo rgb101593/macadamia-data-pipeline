@@ -1,0 +1,5 @@
+Project_ID,Material,Quantity,Location
+P001,Concrete,100,ZoneA
+P001,Steel,50,ZoneB
+P002,Concrete,80,ZoneC
+P002,Steel,40,ZoneD
